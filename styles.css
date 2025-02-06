@@ -1,0 +1,159 @@
+
+header {
+    font-family: Arial, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom,#ab05f7, #ff02ff); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+header nav {
+    position: relative;
+    z-index: 1001;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(135deg, #6a11cb, #2575fc); */
+    color: white;
+    margin: 0;
+    /* padding-top: 80px;  */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    /* padding: 0 20px;  */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: linear-gradient(to bottom, #ff02ff, #ab05f7); 
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    text-align: left;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    color: #c7c4c4;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0);
+    color: black; 
+    position: relative;
+    margin-top: -60px; /* Adjust this value to control the overlap */
+    z-index: 10; /* Ensures it appears above the hero section */
+}
+
+.feature-card {
+    background: white;
+    /* padding: 20px; */
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+
+.courses {
+    padding: 50px;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.course-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course-card p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.buttons {
+    display: flex;
+    gap: 15px; 
+}
+
+.join-btn {
+    background: #ffcc00;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.login-btn {
+    background: #ffcc00;
+    margin-left: 5px;
+    padding: 8px 15px;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+}
